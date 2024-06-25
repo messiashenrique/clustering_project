@@ -1,4 +1,4 @@
-# Clustering Project - 
+# Clustering Project 
 ## Projeto de Comparação de Algoritmos de Clustering aplicados a diferentes Datasets
 #### Trabalho para a disciplina de Tópicos Especiais de Inteligência Artificial: Agrupamento de Dados
 #### [<img src="./images/ufu.png" width="40" height="50" >](./images/ufu.png) - Universidade Federal de Uberlândia
