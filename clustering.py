@@ -217,7 +217,7 @@ if show_plots.lower() == "ok":
         plt.plot(range_n_clusters, avg_single_link, 'ro-', label='Single-Link')
         plt.plot(range_n_clusters, avg_spectral, 'gs-', label='Spectral Clustering')
         plt.axvline(x=ideal_kmeans, color='b', linestyle='-.', label=f'KMeans Ideal: {ideal_kmeans}')
-        plt.axvline(x=ideal_single_link, color='r', linestyle='--', label=f'Agglomerative Ideal: {ideal_single_link}')
+        plt.axvline(x=ideal_single_link, color='r', linestyle='--', label=f'Single-Link Ideal: {ideal_single_link}')
         plt.axvline(x=ideal_spectral, color='g', linestyle=':', label=f'Spectral Ideal: {ideal_spectral}')
         plt.xlabel('Número de Clusters')
         plt.ylabel('Coeficiente de Silhueta')
